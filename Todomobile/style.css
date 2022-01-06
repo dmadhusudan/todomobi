@@ -1,0 +1,206 @@
+body
+{
+    margin-bottom: 400px;
+}
+
+.outer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0px;
+    
+}
+ .head
+ {
+     width: 1000px;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     
+ }
+ .tasks
+ {
+     font-size: 50px;
+     font-weight: bold;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 2px;
+ }
+ .lists
+ {
+     font-size:45px;
+     font-weight: lighter;
+     color: gray;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin: 2px;
+ }
+ .font
+ {
+    width: 40px;
+    height: 40px;
+     background-color: orangered;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+ }
+ .addlist
+ {
+     font-size: 30px;
+     font-weight: 300;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .main
+ {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap:150px;
+    row-gap:50px;
+    flex-wrap: wrap;
+    
+ }
+ .common
+ {
+     width:220px;
+     height:350px;
+     border:2px solid orangered;
+     border-radius: 10px;
+     box-shadow: 3px 5px 7px gray;
+     text-align: center;
+ }
+ .a1
+ {
+     text-decoration: none;
+     color: inherit;
+ }
+ .trip
+ {
+     font-size: 30px;
+     font-weight: 200;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: orangered;
+ }
+ .hr
+ {
+     margin-left: 30px;
+ }
+ .task1
+ {
+     font-size: 20px;
+     font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: line-through;
+    text-decoration-color: red;
+    color: red;
+ }
+ .task2
+ {
+     font-size: 20px;
+     font-weight: 400;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-left: 5px;
+ }
+ .input
+ {
+    width: 17px;
+    height: 17px;
+    margin-left: -45px;
+ }
+ @media screen and (max-width:1100px){
+     
+  .outer
+   {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px; 
+    width:100vw;
+   }
+   .head
+   {
+       width: 90vw;
+       height: 30vw;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .tasks
+   {
+       font-size: 13vw;
+       font-weight: bold;
+       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin: 2vw;
+   }
+   .lists
+   {
+       font-size:10vw;
+       font-weight: lighter;
+       color: gray;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       margin: 2vw;
+   }
+   .font
+   {
+      width: 13vw;
+      height: 13vw;
+       background-color: orangered;
+      text-align: center;
+      padding: 2vw;
+      box-sizing: border-box;
+      color: white;
+      border-radius: 50%;
+      font-size:10vw;
+   }
+   .addlist
+   {
+    
+       display: none;
+   }
+   .main
+ {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:5vw;
+ }
+ .common
+ {
+     width:80vw;
+     height:20vw;
+     border:0.5vw solid lightpink;
+     border-radius: 4vw;
+     box-shadow: 3px 5px 7px gray;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     padding-left: 5vw;
+    
+ }
+ .trip
+ {
+     font-size: 6vw;
+     font-weight: 400;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: gray;
+ }
+ .hr,.task1,.task2,.input
+ {
+     display: none;
+ }
+     
+ }
+ 
